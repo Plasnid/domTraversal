@@ -33,11 +33,11 @@ eg.  const myElements = document.querySelectorAll('.bar')
 --------------------TO DO-------------
 Question 3: using array.from with forEach
 
-    we can use array methods for the results of querySelectorAll, because they come back as a
-    node list, but that doesn't mean that we are stuck!  We can convert the list to an array with 
-    the array.from()
-    
-    Array.from(myElements).forEach(doSomethingWithEachElement)
+     we can use array methods for the results of querySelectorAll, because they come back as a
+     node list, but that doesn't mean that we are stuck!  We can convert the list to an array with 
+     the array.from()
+
+     Array.from(myElements).forEach(doSomethingWithEachElement)
 
      console.log each element using array.from remember your fat arrow for this one!
 */
@@ -46,19 +46,19 @@ Question 3: using array.from with forEach
 
 /*
      we also have access to a number of methods in each of these elements like:
-      myElement.children
-      myElement.firstElementChild
-      myElement.lastElementChild
-      myElement.previousElementSibling
-      myElement.nextElementSibling
-      
-      myElement.childNodes
-      myElement.firstChild
-      myElement.lastChild
-      myElement.previousSibling
-      myElement.nextSibling
-      myElement.parentNode
-      myElement.parentElement
+     myElement.children
+     myElement.firstElementChild
+     myElement.lastElementChild
+     myElement.previousElementSibling
+     myElement.nextElementSibling
+     
+     myElement.childNodes
+     myElement.firstChild
+     myElement.lastChild
+     myElement.previousSibling
+     myElement.nextSibling
+     myElement.parentNode
+     myElement.parentElement
 
 
      --------------------TO DO-------------
@@ -75,17 +75,17 @@ Question 3: using array.from with forEach
 
 /*
      We also have the ability to modify the classes attached to any element with:
-      myElement.classList.add('foo')
-      myElement.classList.remove('bar')
-      myElement.classList.toggle('baz')
-      
-      
-      --------------------TO DO-------------
-      Question 5:  make a class in the css section and link it in the javascript!
-      
-      
-      create a class that would make the background colour green, call it martianSkin
-      add the class to the figcaption in the first child of fleebs
+     myElement.classList.add('foo')
+     myElement.classList.remove('bar')
+     myElement.classList.toggle('baz')
+     
+     
+     --------------------TO DO-------------
+     Question 5:  make a class in the css section and link it in the javascript!
+     
+     
+     create a class that would make the background colour green, call it martianSkin
+     add the class to the figcaption in the first child of fleebs
 */
 
 
@@ -103,50 +103,49 @@ Question 3: using array.from with forEach
 
 
 /*
-      We can also change the text or html of elements with:
-      .innerHTML
-      .innerText
-      
-      --------------------TO DO-------------
-      Question 7:  use the properties shown above to change the page text
-      
-      change the figcaption to say "My tentacles are dayglow green!"
+     We can also change the text or html of elements with:
+     .innerHTML
+     .innerText
+     
+     --------------------TO DO-------------
+     Question 7:  use the properties shown above to change the page text
+     
+     change the figcaption to say "My tentacles are dayglow green!"
 */
 
 
 
 /*
-      we can even create elements:
-      const myNewElement = document.createElement('div')
+     we can even create elements:
+     const myNewElement = document.createElement('div')
 
-      once we have an element we can also append new elements onto it or before it with:
+     once we have an element we can also append new elements onto it or before it with:
       // Append element2 as the last child of element1
-      element2 = document.createElement("p");
-      p.innerText = "I don't like food anymore";
-      element1.appendChild(element2)
+     element2 = document.createElement("p");
+     p.innerText = "I don't like food anymore";
+     element1.appendChild(element2)
 
       // Insert element2 as child of element 1, right before element3
-      element1.insertBefore(element2, element3)
-      
+     element1.insertBefore(element2, element3)
+     
       //element1.innerHTML += `bork bork!`
-      
-      --------------------TO DO-------------
-      Question 8:  putting it together, find a list element and add a new product to it
-      
-      find the specials list, create a new product, and append your new product to the end of the list
+     
+     --------------------TO DO-------------
+     Question 8:  putting it together, find a list element and add a new product to it
+     
+     find the specials list, create a new product, and append your new product to the end of the list
 */
 
 
 
 /*
-      or destroy elements with:
-      myParentElement.removeChild(myElement)
-      myElement.parentNode.removeChild(myElement)
-      
-      --------------------TO DO-------------
-      Question 9:  using the methods shown above remove an h6 tag from the landing
+     or destroy elements with:
+          myParentElement.removeChild(myElement)
+          myElement.parentNode.removeChild(myElement)
+     
+     --------------------TO DO-------------
+     Question 9:  using the methods shown above remove an h6 tag from the landing
 
-      lets remove the h6 in the landing!
+     lets remove the h6 in the landing!
 
 */
-
